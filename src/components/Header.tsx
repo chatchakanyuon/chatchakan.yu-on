@@ -32,8 +32,8 @@ export default function Header() {
               key={item.name}
               href={item.href}
               className={cn(
-                "hover:text-zinc-50",
-                pathname === item.href ? "text-zinc-50" : "text-zinc-400"
+                "hover:underline hover:underline-offset-4 hover:text-zinc-50",
+                pathname === item.href ? "text-zinc-50" : "text-zinc-400",
               )}
             >
               {item.name}
