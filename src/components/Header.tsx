@@ -19,7 +19,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="fixed w-full py-4 bg-zinc-950 border-b border-zinc-800">
+    <header className="fixed w-full py-4 bg-white dark:bg-gray-950 border-b border-black/5 dark:border-white/10">
       <div className="flex items-center justify-between px-8">
         <Link href="/" className="text-xl font-bold">
           Chatchakan Yu-on
