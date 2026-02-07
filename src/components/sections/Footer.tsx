@@ -6,11 +6,11 @@ import CallIcon from "@mui/icons-material/Call";
 
 import Link from "next/link";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer
       id="contacts"
-      className="row-start-3 flex gap-6 flex-wrap items-center justify-center"
+      className="flex gap-6 flex-wrap items-start justify-center py-4 flex-col md:flex-row md:justify-center"
     >
       <div className="flex">
         <EmailIcon className="self-center mx-4" />

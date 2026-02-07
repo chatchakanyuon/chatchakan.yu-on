@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Hero() {
+export default function Hero() {
   return (
     <section>
       <div className="flex gap-8 flex-col md:flex-row">
